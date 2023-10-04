@@ -7,7 +7,7 @@ public class JavaFundamentals {
     static final double EARTH_GRAVITY = 9.81;
 
     public static void main(String[] args) {
-        System.out.println(sumOfTwoNumbers(2, 3));
+        System.out.println(sumOfTwoNumbers(4, 3));
         System.out.println(sumOfTwoNumbers(12, 5));
         System.out.println(getOne());
         System.out.println(myMethod("Phone", 3999));
@@ -16,6 +16,16 @@ public class JavaFundamentals {
         firstNumber = 23;
         int secondNumber = 21;
         System.out.println(sumOfTwoNumbers(firstNumber, secondNumber));
+
+        System.out.println("Array");
+        arrayVariables();
+        division();
+    }
+
+    public static void something(int a, int b) {
+        System.out.println(a);
+        something(12, 24);
+        System.out.println(b);
     }
 
     public static int sumOfTwoNumbers(int a, int b) {
@@ -40,7 +50,7 @@ public class JavaFundamentals {
         long d = 2147483648L;
         float e = 43546.123456F;
         double f = 123414.123456789012345;
-        boolean g = true;
+        boolean g = false;
         char h = 'c';
         byte i;
         i = 1;
@@ -48,7 +58,7 @@ public class JavaFundamentals {
         // ^^^ variabile
 
         int aa = 15;
-        int bb = a;
+        int bb = aa;
         aa = 20; // bb remains 15
     }
 
@@ -72,3 +82,5 @@ public class JavaFundamentals {
         System.out.println(c / d); // 3.2 / 2 = 1.6
     }
 }
+
+// c3 operators min. 17
